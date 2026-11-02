@@ -1,0 +1,339 @@
+MSYS2 UCRT64 /c/paralel_sobel/sobel_program
+$ make run
+./serial.exe
+=================================
+   SOBEL EDGE DETECTION SERIAL
+=================================
+Gambar berhasil dibaca!
+Lebar  : 2000 pixel
+Tinggi : 2000 pixel
+
+Proses Sobel selesai!
+Output         : output/sobel_serial.pgm
+Waktu eksekusi : 137.187 ms
+=================================
+./pthreads.exe 1
+=================================
+ SOBEL EDGE DETECTION PTHREADS
+=================================
+Gambar berhasil dibaca!
+Lebar   : 2000 pixel
+Tinggi  : 2000 pixel
+Threads : 1
+
+Proses Sobel selesai!
+Output         : output/sobel_pthreads_1.pgm
+Waktu eksekusi : 162.09 ms
+=================================
+./pthreads.exe 2
+=================================
+ SOBEL EDGE DETECTION PTHREADS
+=================================
+Gambar berhasil dibaca!
+Lebar   : 2000 pixel
+Tinggi  : 2000 pixel
+Threads : 2
+
+Proses Sobel selesai!
+Output         : output/sobel_pthreads_2.pgm
+Waktu eksekusi : 91.9038 ms
+=================================
+./pthreads.exe 4
+=================================
+ SOBEL EDGE DETECTION PTHREADS
+=================================
+Gambar berhasil dibaca!
+Lebar   : 2000 pixel
+Tinggi  : 2000 pixel
+Threads : 4
+
+Proses Sobel selesai!
+Output         : output/sobel_pthreads_4.pgm
+Waktu eksekusi : 69.2607 ms
+=================================
+./pthreads.exe 8
+=================================
+ SOBEL EDGE DETECTION PTHREADS
+=================================
+Gambar berhasil dibaca!
+Lebar   : 2000 pixel
+Tinggi  : 2000 pixel
+Threads : 8
+
+Proses Sobel selesai!
+Output         : output/sobel_pthreads_8.pgm
+Waktu eksekusi : 42.0523 ms
+=================================
+./openmp.exe 1
+Sobel OpenMP berhasil!
+Ukuran gambar : 2000 x 2000
+Jumlah thread : 1
+Waktu proses  : 0.199916 detik
+Output        : output/sobel_openmp_1.pgm
+./openmp.exe 2
+Sobel OpenMP berhasil!
+Ukuran gambar : 2000 x 2000
+Jumlah thread : 2
+Waktu proses  : 0.0981986 detik
+Output        : output/sobel_openmp_2.pgm
+./openmp.exe 4
+Sobel OpenMP berhasil!
+Ukuran gambar : 2000 x 2000
+Jumlah thread : 4
+Waktu proses  : 0.0728623 detik
+Output        : output/sobel_openmp_4.pgm
+./openmp.exe 8
+Sobel OpenMP berhasil!
+Ukuran gambar : 2000 x 2000
+Jumlah thread : 8
+Waktu proses  : 0.0399647 detik
+Output        : output/sobel_openmp_8.pgm
+.\compare.exe output/sobel_serial.pgm output/sobel_pthreads_1.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_pthreads_2.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_pthreads_4.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_pthreads_8.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_openmp_1.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_openmp_2.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_openmp_4.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_openmp_8.pgm
+HASIL SAMA: seluruh pixel identik.
+
+MSYS2 UCRT64 /c/paralel_sobel/sobel_program
+$ make run
+./serial.exe
+=================================
+   SOBEL EDGE DETECTION SERIAL
+=================================
+Gambar berhasil dibaca!
+Lebar  : 2000 pixel
+Tinggi : 2000 pixel
+
+Proses Sobel selesai!
+Output         : output/sobel_serial.pgm
+Waktu eksekusi : 123.414 ms
+=================================
+./pthreads.exe 1
+=================================
+ SOBEL EDGE DETECTION PTHREADS
+=================================
+Gambar berhasil dibaca!
+Lebar   : 2000 pixel
+Tinggi  : 2000 pixel
+Threads : 1
+
+Proses Sobel selesai!
+Output         : output/sobel_pthreads_1.pgm
+Waktu eksekusi : 182.741 ms
+=================================
+./pthreads.exe 2
+=================================
+ SOBEL EDGE DETECTION PTHREADS
+=================================
+Gambar berhasil dibaca!
+Lebar   : 2000 pixel
+Tinggi  : 2000 pixel
+Threads : 2
+
+Proses Sobel selesai!
+Output         : output/sobel_pthreads_2.pgm
+Waktu eksekusi : 82.1157 ms
+=================================
+./pthreads.exe 4
+=================================
+ SOBEL EDGE DETECTION PTHREADS
+=================================
+Gambar berhasil dibaca!
+Lebar   : 2000 pixel
+Tinggi  : 2000 pixel
+Threads : 4
+
+Proses Sobel selesai!
+Output         : output/sobel_pthreads_4.pgm
+Waktu eksekusi : 68.5968 ms
+=================================
+./pthreads.exe 8
+=================================
+ SOBEL EDGE DETECTION PTHREADS
+=================================
+Gambar berhasil dibaca!
+Lebar   : 2000 pixel
+Tinggi  : 2000 pixel
+Threads : 8
+
+Proses Sobel selesai!
+Output         : output/sobel_pthreads_8.pgm
+Waktu eksekusi : 48.2681 ms
+=================================
+./openmp.exe 1
+Sobel OpenMP berhasil!
+Ukuran gambar : 2000 x 2000
+Jumlah thread : 1
+Waktu proses  : 0.204819 detik
+Output        : output/sobel_openmp_1.pgm
+./openmp.exe 2
+Sobel OpenMP berhasil!
+Ukuran gambar : 2000 x 2000
+Jumlah thread : 2
+Waktu proses  : 0.0912314 detik
+Output        : output/sobel_openmp_2.pgm
+./openmp.exe 4
+Sobel OpenMP berhasil!
+Ukuran gambar : 2000 x 2000
+Jumlah thread : 4
+Waktu proses  : 0.0652876 detik
+Output        : output/sobel_openmp_4.pgm
+./openmp.exe 8
+Sobel OpenMP berhasil!
+Ukuran gambar : 2000 x 2000
+Jumlah thread : 8
+Waktu proses  : 0.0375334 detik
+Output        : output/sobel_openmp_8.pgm
+.\compare.exe output/sobel_serial.pgm output/sobel_pthreads_1.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_pthreads_2.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_pthreads_4.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_pthreads_8.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_openmp_1.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_openmp_2.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_openmp_4.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_openmp_8.pgm
+HASIL SAMA: seluruh pixel identik.
+
+MSYS2 UCRT64 /c/paralel_sobel/sobel_program
+$ make run
+./serial.exe
+=================================
+   SOBEL EDGE DETECTION SERIAL
+=================================
+Gambar berhasil dibaca!
+Lebar  : 2000 pixel
+Tinggi : 2000 pixel
+
+Proses Sobel selesai!
+Output         : output/sobel_serial.pgm
+Waktu eksekusi : 146.195 ms
+=================================
+./pthreads.exe 1
+=================================
+ SOBEL EDGE DETECTION PTHREADS
+=================================
+Gambar berhasil dibaca!
+Lebar   : 2000 pixel
+Tinggi  : 2000 pixel
+Threads : 1
+
+Proses Sobel selesai!
+Output         : output/sobel_pthreads_1.pgm
+Waktu eksekusi : 164.208 ms
+=================================
+./pthreads.exe 2
+=================================
+ SOBEL EDGE DETECTION PTHREADS
+=================================
+Gambar berhasil dibaca!
+Lebar   : 2000 pixel
+Tinggi  : 2000 pixel
+Threads : 2
+
+Proses Sobel selesai!
+Output         : output/sobel_pthreads_2.pgm
+Waktu eksekusi : 57.9143 ms
+=================================
+./pthreads.exe 4
+=================================
+ SOBEL EDGE DETECTION PTHREADS
+=================================
+Gambar berhasil dibaca!
+Lebar   : 2000 pixel
+Tinggi  : 2000 pixel
+Threads : 4
+
+Proses Sobel selesai!
+Output         : output/sobel_pthreads_4.pgm
+Waktu eksekusi : 68.2643 ms
+=================================
+./pthreads.exe 8
+=================================
+ SOBEL EDGE DETECTION PTHREADS
+=================================
+Gambar berhasil dibaca!
+Lebar   : 2000 pixel
+Tinggi  : 2000 pixel
+Threads : 8
+
+Proses Sobel selesai!
+Output         : output/sobel_pthreads_8.pgm
+Waktu eksekusi : 41.5107 ms
+=================================
+./openmp.exe 1
+Sobel OpenMP berhasil!
+Ukuran gambar : 2000 x 2000
+Jumlah thread : 1
+Waktu proses  : 0.186071 detik
+Output        : output/sobel_openmp_1.pgm
+./openmp.exe 2
+Sobel OpenMP berhasil!
+Ukuran gambar : 2000 x 2000
+Jumlah thread : 2
+Waktu proses  : 0.102462 detik
+Output        : output/sobel_openmp_2.pgm
+./openmp.exe 4
+Sobel OpenMP berhasil!
+Ukuran gambar : 2000 x 2000
+Jumlah thread : 4
+Waktu proses  : 0.0669495 detik
+Output        : output/sobel_openmp_4.pgm
+./openmp.exe 8
+Sobel OpenMP berhasil!
+Ukuran gambar : 2000 x 2000
+Jumlah thread : 8
+Waktu proses  : 0.0379257 detik
+Output        : output/sobel_openmp_8.pgm
+.\compare.exe output/sobel_serial.pgm output/sobel_pthreads_1.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_pthreads_2.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_pthreads_4.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_pthreads_8.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_openmp_1.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_openmp_2.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_openmp_4.pgm
+HASIL SAMA: seluruh pixel identik.
+.\compare.exe output/sobel_serial.pgm output/sobel_openmp_8.pgm
+HASIL SAMA: seluruh pixel identik.
+
+MSYS2 UCRT64 /c/paralel_sobel/sobel_program
+$ wc -l src/main_serial.cpp src/main_pthreads.cpp src/main_openmp.cpp
+  214 src/main_serial.cpp
+  293 src/main_pthreads.cpp
+  163 src/main_openmp.cpp
+  670 total
+
+MSYS2 UCRT64 /c/paralel_sobel/sobel_program
+$ awk 'NF && $0 !~ /^[[:space:]]*\/\// && $0 !~ /^[[:space:]]*\/\*/ && $0 !~ /^[[:space:]]*\*/ && $0 !~ /^[[:space:]]*\*\// {count++} END {print count}' src/main_serial.cpp
+142
+
+MSYS2 UCRT64 /c/paralel_sobel/sobel_program
+$ awk 'NF && $0 !~ /^[[:space:]]*\/\// && $0 !~ /^[[:space:]]*\/\*/ && $0 !~ /^[[:space:]]*\*/ && $0 !~ /^[[:space:]]*\*\// {count++} END {print count}' src/main_pthreads.cpp
+202
+
+MSYS2 UCRT64 /c/paralel_sobel/sobel_program
+$ awk 'NF && $0 !~ /^[[:space:]]*\/\// && $0 !~ /^[[:space:]]*\/\*/ && $0 !~ /^[[:space:]]*\*/ && $0 !~ /^[[:space:]]*\*\// {count++} END {print count}' src/main_openmp.cpp
+117
