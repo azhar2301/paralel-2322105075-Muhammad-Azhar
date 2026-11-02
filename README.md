@@ -18,7 +18,7 @@ Program Sobel Edge Detection menggunakan gambar grayscale dengan format **PGM (P
 
 Jika belum memiliki gambar grayscale berformat PGM, lakukan konversi terlebih dahulu menggunakan program Image Converter berikut:
 
-<!-- **[Image Converter — GitHub](LINK_GITHUB_IMAGE_CONVERTER)** -->
+**[Image Converter — GitHub](https://github.com/azhar2301/mengubah-gambar-ke-grayscale)**
 
 Langkah-langkah:
 
